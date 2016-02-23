@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF3965881C7C4EDF00608273 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3965871C7C4EDF00608273 /* main.m */; };
+		CF39658B1C7C4EDF00608273 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF39658A1C7C4EDF00608273 /* AppDelegate.m */; };
+		CF3965911C7C4EDF00608273 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF39658F1C7C4EDF00608273 /* Main.storyboard */; };
+		CF3965931C7C4EDF00608273 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF3965921C7C4EDF00608273 /* Assets.xcassets */; };
+		CF3965961C7C4EDF00608273 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF3965941C7C4EDF00608273 /* LaunchScreen.storyboard */; };
+		CF3965A01C7C4F0F00608273 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF39659F1C7C4F0F00608273 /* ViewController.m */; };
+		CF3965A41C7C4F3300608273 /* SJWifiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3965A31C7C4F3300608273 /* SJWifiManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CF3965831C7C4EDF00608273 /* SJWifiDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SJWifiDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3965871C7C4EDF00608273 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF3965891C7C4EDF00608273 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF39658A1C7C4EDF00608273 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF3965901C7C4EDF00608273 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF3965921C7C4EDF00608273 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF3965951C7C4EDF00608273 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF3965971C7C4EDF00608273 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF39659E1C7C4F0F00608273 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF39659F1C7C4F0F00608273 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF3965A21C7C4F3300608273 /* SJWifiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJWifiManager.h; sourceTree = "<group>"; };
+		CF3965A31C7C4F3300608273 /* SJWifiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJWifiManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF3965801C7C4EDF00608273 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF39657A1C7C4EDF00608273 = {
+			isa = PBXGroup;
+			children = (
+				CF3965851C7C4EDF00608273 /* SJWifiDemo */,
+				CF3965841C7C4EDF00608273 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF3965841C7C4EDF00608273 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF3965831C7C4EDF00608273 /* SJWifiDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF3965851C7C4EDF00608273 /* SJWifiDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CF3965A11C7C4F2100608273 /* Model */,
+				CF39659D1C7C4F0F00608273 /* ViewController */,
+				CF3965861C7C4EDF00608273 /* Supporting Files */,
+			);
+			path = SJWifiDemo;
+			sourceTree = "<group>";
+		};
+		CF3965861C7C4EDF00608273 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF3965871C7C4EDF00608273 /* main.m */,
+				CF3965891C7C4EDF00608273 /* AppDelegate.h */,
+				CF39658A1C7C4EDF00608273 /* AppDelegate.m */,
+				CF39658F1C7C4EDF00608273 /* Main.storyboard */,
+				CF3965921C7C4EDF00608273 /* Assets.xcassets */,
+				CF3965941C7C4EDF00608273 /* LaunchScreen.storyboard */,
+				CF3965971C7C4EDF00608273 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF39659D1C7C4F0F00608273 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CF39659E1C7C4F0F00608273 /* ViewController.h */,
+				CF39659F1C7C4F0F00608273 /* ViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		CF3965A11C7C4F2100608273 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CF3965A21C7C4F3300608273 /* SJWifiManager.h */,
+				CF3965A31C7C4F3300608273 /* SJWifiManager.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF3965821C7C4EDF00608273 /* SJWifiDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF39659A1C7C4EDF00608273 /* Build configuration list for PBXNativeTarget "SJWifiDemo" */;
+			buildPhases = (
+				CF39657F1C7C4EDF00608273 /* Sources */,
+				CF3965801C7C4EDF00608273 /* Frameworks */,
+				CF3965811C7C4EDF00608273 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SJWifiDemo;
+			productName = SJWifiDemo;
+			productReference = CF3965831C7C4EDF00608273 /* SJWifiDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF39657B1C7C4EDF00608273 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = shejun.zhou;
+				TargetAttributes = {
+					CF3965821C7C4EDF00608273 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = CF39657E1C7C4EDF00608273 /* Build configuration list for PBXProject "SJWifiDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF39657A1C7C4EDF00608273;
+			productRefGroup = CF3965841C7C4EDF00608273 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF3965821C7C4EDF00608273 /* SJWifiDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF3965811C7C4EDF00608273 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3965961C7C4EDF00608273 /* LaunchScreen.storyboard in Resources */,
+				CF3965931C7C4EDF00608273 /* Assets.xcassets in Resources */,
+				CF3965911C7C4EDF00608273 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF39657F1C7C4EDF00608273 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF39658B1C7C4EDF00608273 /* AppDelegate.m in Sources */,
+				CF3965A41C7C4F3300608273 /* SJWifiManager.m in Sources */,
+				CF3965A01C7C4F0F00608273 /* ViewController.m in Sources */,
+				CF3965881C7C4EDF00608273 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CF39658F1C7C4EDF00608273 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF3965901C7C4EDF00608273 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF3965941C7C4EDF00608273 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF3965951C7C4EDF00608273 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF3965981C7C4EDF00608273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF3965991C7C4EDF00608273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF39659B1C7C4EDF00608273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SJWifiDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fx.YiBan.SJWifiDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF39659C1C7C4EDF00608273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SJWifiDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fx.YiBan.SJWifiDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF39657E1C7C4EDF00608273 /* Build configuration list for PBXProject "SJWifiDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3965981C7C4EDF00608273 /* Debug */,
+				CF3965991C7C4EDF00608273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF39659A1C7C4EDF00608273 /* Build configuration list for PBXNativeTarget "SJWifiDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF39659B1C7C4EDF00608273 /* Debug */,
+				CF39659C1C7C4EDF00608273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF39657B1C7C4EDF00608273 /* Project object */;
+}

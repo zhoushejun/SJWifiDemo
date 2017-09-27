@@ -33,4 +33,11 @@
  */
 - (NSString *)localIPAddress;
 
+/**
+ @method    wifiSignalStrength
+ @abstract  获取连接上 wifi 的当前 wifi信号强度
+ @return    wifi信号强度
+ */
+- (NSInteger)wifiSignalStrength;
+
 @end

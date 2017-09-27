@@ -10,6 +10,7 @@
 #import <ifaddrs.h>
 #import <net/if.h>
 #include <arpa/inet.h>
+#import "AppDelegate.h"
 
 #import <SystemConfiguration/CaptiveNetwork.h>
 
@@ -91,5 +92,30 @@
     return address;
 }
 
+//获取wifi信号强度
+- (NSInteger)wifiSignalStrength{
+
+    UIApplication *app = [UIApplication sharedApplication];
+    UIView *statusBar = [app valueForKey:@"statusBar"];
+    //iPhoneX
+//    UIView *foregroundView = [statusBar valueForKeyPath:@"statusBar.foregroundView"];
+//    NSArray *subviews = [foregroundView subviews];
+    //非iPhoneX
+    NSArray *subviews = [[[app valueForKey:@"statusBar"] valueForKey:@"foregroundView"] subviews];
+    NSString *dataNetworkItemView = nil;
+    
+    for (id subview in subviews) {
+        if([subview isKindOfClass:[NSClassFromString(@"UIStatusBarDataNetworkItemView") class]]) {
+            dataNetworkItemView = subview;
+            break;
+        }
+    }
+    
+    NSInteger signalStrength = [[dataNetworkItemView valueForKey:@"_wifiStrengthBars"] integerValue];
+    
+    NSLog(@"signal %d", signalStrength);
+    
+    return signalStrength;
+}
 
 @end

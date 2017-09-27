@@ -15,6 +15,7 @@
 @property (nonatomic, strong) SJWifiManager *wifiManager;
 @property (weak, nonatomic) IBOutlet UITextView *wifiNameTextView;
 @property (weak, nonatomic) IBOutlet UITextView *ipAddressTextView;
+@property (weak, nonatomic) IBOutlet UITextView *wifiSignalStrength;
 
 @end
 
@@ -30,6 +31,9 @@
         
         NSString *ipAddress = [_wifiManager localIPAddress];
         self.ipAddressTextView.text = ipAddress;
+    
+        NSInteger wifi = [_wifiManager wifiSignalStrength];
+        self.wifiSignalStrength.text = [NSString stringWithFormat:@"%ld", (long)wifi];
     }
 }
 
@@ -117,11 +121,15 @@
      
      */
     
-//    NSURL *url = [NSURL URLWithString:UIApplicationOpenSettingsURLString];
-    NSURL *url = [NSURL URLWithString:@"prefs:root=WIFI"];
+    NSURL *url = [NSURL URLWithString:UIApplicationOpenSettingsURLString];
 
     if ([[UIApplication sharedApplication] canOpenURL:url]) {
-        [[UIApplication sharedApplication] openURL:url];
+        if ([[UIApplication sharedApplication] respondsToSelector:@selector(openURL:options:completionHandler:)]) {
+            [[UIApplication sharedApplication] openURL:url options:@{} completionHandler:nil];
+        }
+        else {
+            [[UIApplication sharedApplication] openURL:url];
+        }
     }
 }
 
